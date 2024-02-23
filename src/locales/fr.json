@@ -1,0 +1,86 @@
+{
+  "yup": {
+    "array": {
+      "length": "Le champ {label} doit avoir {length} élément(s)",
+      "max": "Le champ {label} doit contenir au maximum {max} élément(s)",
+      "min": "Le champ {label} doit contenir au moins {min} élément(s)",
+      "unique": "Les champs {label} doivent être uniques"
+    },
+    "boolean": {
+      "isTrue": "Le champ {label} doit être coché",
+      "isValue": "Le champ {label} doit être {value}"
+    },
+    "color_hexa": {
+      "invalid": "Veuillez saisir une couleur, en commençant par '#'"
+    },
+    "date": {
+      "birthdayMax": "La date de naissance doit être antérieure à la date d'aujourd'hui",
+      "dateLessThanNow": "La date doit être inférieure à la date d'aujourd'hui",
+      "max": "Le champ {label} doit être antérieur à {max}",
+      "min": "Le champ {label} doit être postérieur à {min}"
+    },
+    "file": {
+      "minSize": "La taille du fichier doit être d'au moins {minSize} {unit}",
+      "size": "La taille du fichier doit être au maximum de {size} {unit}",
+      "type": "Le type de fichier '{type}' n'est pas autorisé"
+    },
+    "mixed": {
+      "default": "Le champ {label} n'est pas valide",
+      "defined": "Le champ {label} doit être défini",
+      "notNull": "Le champ {label} ne peut pas être nul",
+      "notOneOf": "Le champ {label} ne doit pas être l'une des valeurs suivantes : {values}",
+      "notType": "Veuillez saisir un {type}",
+      "oneOf": "Le champ {label} doit être l'une des valeurs suivantes : {values}",
+      "required": "Le champ {label} est obligatoire"
+    },
+    "number": {
+      "decimal": "Le champ {label} doit être un nombre décimal positif avec un maximum de {digitsAfterComma} chiffres après la virgule",
+      "integer": "Le champ {label} doit être un entier",
+      "lessThan": "Le champ {label} doit être inférieur à {less}",
+      "max": "Le champ {label} doit être inférieur ou égal à {max}",
+      "maxLength": "Le champ {label} doit contenir au plus {max} caractères",
+      "min": "Le champ {label} doit être supérieur ou égal à {min}",
+      "minLength": "Le champ {label} doit contenir au moins {min} caractères",
+      "moreThan": "Le champ {label} doit être supérieur à {more}",
+      "negative": "Le champ {label} doit être un nombre négatif",
+      "positive": "Le champ {label} doit être un nombre positif"
+    },
+    "object": {
+      "noUnknown": "Le champ contient des clés non spécifiées : {unknown}"
+    },
+    "phone": {
+      "invalid": "Le numéro n'est pas valide"
+    },
+    "prefixUrl": {
+      "invalid": "Cette valeur n'est pas une URL valide"
+    },
+    "special": {
+      "duplicate_batch_quantities": "Il ne peut pas y avoir de lignes de conditionnement avec la même quantité",
+      "empty_to_amount_only_on_last_slice": "Le montant ne peut être vide que sur la dernière tranche",
+      "no_maximum_for_last_slice": "La dernière tranche de commissions ne doit pas avoir de montant maximum.",
+      "no_multiple_empty_to_amount": "Il ne peut pas y avoir plusieurs montants vides",
+      "to_amount_cannot_be_same": "Les montants ne peuvent pas être les mêmes",
+      "to_amount_greater_than_previous": "Ce montant doit être supérieur au précédent"
+    },
+    "string": {
+      "email": "Le champ {label} doit être un email valide",
+      "invalid_email": "'{email}' doit être un email valide",
+      "length": "Le champ {label} doit contenir exactement {length} caractères",
+      "length_digits": "Le champ {label} doit contenir exactement {length} chiffres",
+      "lowercase": "Le champ {label} doit être une chaîne en minuscule",
+      "matches": "Le champ {label} doit être au bon format",
+      "max": "Le champ {label} doit comporter au maximum {max} caractère(s)",
+      "min": "Le champ {label} doit comporter au minimum {min} caractère(s)",
+      "trim": "Le champ {label} doit être une chaîne coupée",
+      "uppercase": "Le champ {label} doit être en majuscule",
+      "url": "Le champ {label} doit être une URL valide",
+      "uuid": "Le champ {label} doit être un UUID valide"
+    },
+    "translated": {
+      "label": "{label} dans le langage {langCode}"
+    },
+    "tuple": {
+      "notType": "Le champ {label} "
+    }
+  }
+}

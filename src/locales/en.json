@@ -1,0 +1,86 @@
+{
+  "yup": {
+    "array": {
+      "length": "The {label} field must have {length} items",
+      "max": "The {label} field must have less than or equal to {max} items",
+      "min": "The {label} field must have at least {min} items",
+      "unique": "{label} fields must be unique"
+    },
+    "boolean": {
+      "isTrue": "The {label} field must be checked",
+      "isValue": "The {label} field must be {value}"
+    },
+    "color_hexa": {
+      "invalid": "Please enter a color, starting with '#'"
+    },
+    "date": {
+      "birthdayMax": "Date of birth must be less than today's date",
+      "dateLessThanNow": "Date must be less than today's date",
+      "max": "The {label} field must be at earlier than {max}",
+      "min": "The {label} field must be later than {min}"
+    },
+    "file": {
+      "minSize": "The file size must be at least {minSize} {unit}",
+      "size": "The file size must be at most {size} {unit}",
+      "type": "The '{type}' file type is not allowed"
+    },
+    "mixed": {
+      "default": "The {label} field is invalid",
+      "defined": "The {label} field must be defined",
+      "notNull": "The {label} field cannot be null",
+      "notOneOf": "The {label} field must not be one of the following values: {values}",
+      "notType": "Please enter a {type}",
+      "oneOf": "The {label} field must be one of the following values: {values}",
+      "required": "The {label} field is required"
+    },
+    "number": {
+      "decimal": "The {label} field should be a positive decimal number with maximum {digitsAfterComma} digits after comma",
+      "integer": "The {label} field must be an integer",
+      "lessThan": "The {label} field must be less than {less}",
+      "max": "The {label} field must be less than or equal to {max}",
+      "maxLength": "The {label} field must be at most {max} characters",
+      "min": "The {label} field must be greater than or equal to {min}",
+      "minLength": "The {label} field must be at least {min} characters",
+      "moreThan": "The {label} field must be greater than {more}",
+      "negative": "The {label} field must be a negative number",
+      "positive": "The {label} field must be a positive number"
+    },
+    "object": {
+      "noUnknown": "The {label} field has unspecified keys: {unknown}"
+    },
+    "phone": {
+      "invalid": "The number is not valid"
+    },
+    "prefixUrl": {
+      "invalid": "This value is not a valid URL"
+    },
+    "special": {
+      "duplicate_batch_quantities": "There cannot be packaging lines with the same quantity",
+      "empty_to_amount_only_on_last_slice": "The amount can be empty only on last slice",
+      "no_maximum_for_last_slice": "The final tranche of commissions should not have a maximum amount.",
+      "no_multiple_empty_to_amount": "There cannot be several empty amounts",
+      "to_amount_cannot_be_same": "Amounts can't be same",
+      "to_amount_greater_than_previous": "This amount must be greater than the previous one"
+    },
+    "string": {
+      "email": "The {label} field must be a valid email",
+      "invalid_email": "'{email}' must be a valid email",
+      "length": "The {label} field must be exactly {length} characters",
+      "length_digits": "The {label} field must be exactly {length} digits",
+      "lowercase": "The {label} field must be a lowercase string",
+      "matches": "The {label} field must match the following: '{regex}'",
+      "max": "The {label} field must be at most {max} characters",
+      "min": "The {label} field must be at least {min} characters",
+      "trim": "The {label} field must be a trimmed string",
+      "uppercase": "The {label} field must be a upper case string",
+      "url": "The {label} field must be a valid URL",
+      "uuid": "The {label} field must be a valid UUID"
+    },
+    "translated": {
+      "label": "{langCode} language for {label} this "
+    },
+    "tuple": {
+      "notType": "The {label} field"
+    }
+  }
+}

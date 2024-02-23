@@ -66,3 +66,45 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+# Stack trace
+
+npm init vue@latest
+
+Vue.js - The Progressive JavaScript Framework
+
+✔ Nom du projet : … Demo
+✔ Nom du package : … demo
+✔ Ajouter TypeScript ? … Non / Oui
+✔ Ajouter le support de JSX ? … Non / Oui
+✔ Ajouter Vue Router pour le développement d'applications _single page_ ? … Non / Oui
+✔ Ajouter Pinia pour la gestion de l'état ? … Non / Oui
+✔ Ajouter Vitest pour les tests unitaires ? … Non / Oui
+✔ Ajouter une solution de test de bout en bout (e2e) ? › Cypress
+✔ Ajouter ESLint pour la qualité du code ? … Non / Oui
+✔ Ajouter Prettier pour le formatage du code ? … Non / Oui
+
+npm install
+
+npm install ant-design-vue --save
+
+npm i unplugin-vue-components -D
+
+npm install vue-i18n@9
+
+npm install -D vite-plugin-pages
+
+npm i @intlify/unplugin-vue-i18n
+
+npm install @openapitools/openapi-generator-cli -D
+
+npm i vee-validate --save
+
+npm install --save-dev eslint @intlify/eslint-plugin-vue-i18n
+
+npm i --save-dev typescript @typescript-eslint/parser
+
+npm install -S yup
+
+npm install --save-dev eslint @intlify/eslint-plugin-vue-i18n
+
+npm i --save-dev typescript @typescript-eslint/parser
